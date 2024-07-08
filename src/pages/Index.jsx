@@ -2,7 +2,7 @@ import { Button } from "@/components/ui/button";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { Input } from "@/components/ui/input";
 import { Textarea } from "@/components/ui/textarea";
-import { MapPin, Tree } from "lucide-react";
+import { MapPin, Home } from "lucide-react";
 
 const Index = () => {
   return (
@@ -92,7 +92,7 @@ const Index = () => {
         <div className="container mx-auto px-4">
           <div className="flex flex-col md:flex-row justify-between items-center">
             <div className="flex items-center mb-4 md:mb-0">
-              <Tree className="h-6 w-6 mr-2" />
+              <Home className="h-6 w-6 mr-2" />
               <span className="text-lg font-semibold">Pineville</span>
             </div>
             <nav className="mb-4 md:mb-0">
