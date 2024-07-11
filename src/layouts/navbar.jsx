@@ -35,7 +35,7 @@ const DesktopNav = () => (
       className="flex items-center gap-2 text-lg font-semibold md:text-base"
     >
       <Home className="h-6 w-6 text-green-600" />
-      <span>Pineville</span>
+      <span>Lebane</span>
     </NavItem>
     {navItems.map((item) => (
       <NavItem key={item.to} to={item.to}>
@@ -60,7 +60,7 @@ const MobileNav = () => (
           className="flex items-center gap-2 text-lg font-semibold"
         >
           <Home className="h-6 w-6 text-green-600" />
-          <span>Pineville</span>
+          <span>Lebane</span>
         </NavItem>
         {navItems.map((item) => (
           <NavItem key={item.to} to={item.to}>

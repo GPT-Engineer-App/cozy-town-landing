@@ -12,7 +12,7 @@ const Index = () => {
         <img src="/placeholder.svg" alt="Town Landscape" className="absolute inset-0 w-full h-full object-cover opacity-50" />
         <div className="container mx-auto px-4 relative z-10">
           <div className="max-w-3xl mx-auto text-center">
-            <h1 className="text-4xl font-bold mb-4">Welcome to Pineville</h1>
+            <h1 className="text-4xl font-bold mb-4">Welcome to Lebane</h1>
             <p className="text-xl mb-8">A charming small town nestled in the heart of nature.</p>
             <Button size="lg" className="bg-green-600 hover:bg-green-700">Learn More</Button>
           </div>
@@ -24,17 +24,17 @@ const Index = () => {
         <div className="container mx-auto px-4">
           <div className="flex flex-col md:flex-row items-center">
             <div className="md:w-1/2 mb-8 md:mb-0">
-              <img src="/placeholder.svg" alt="Pineville" className="rounded-lg shadow-lg" />
+              <img src="/placeholder.svg" alt="Lebane" className="rounded-lg shadow-lg" />
             </div>
             <div className="md:w-1/2 md:pl-10">
-              <h2 className="text-3xl font-bold mb-4">About Pineville</h2>
+              <h2 className="text-3xl font-bold mb-4">About Lebane</h2>
               <p className="text-gray-600 mb-4">
-                Pineville is a picturesque small town founded in 1850. Surrounded by lush forests and clear streams, 
+                Lebane is a picturesque small town founded in 1850. Surrounded by lush forests and clear streams, 
                 our community prides itself on its rich history, friendly atmosphere, and commitment to preserving nature.
               </p>
               <p className="text-gray-600">
                 Whether you're looking for outdoor adventures, quaint shops, or simply a peaceful getaway, 
-                Pineville offers something for everyone.
+                Lebane offers something for everyone.
               </p>
             </div>
           </div>
@@ -79,7 +79,7 @@ const Index = () => {
                 {/* Placeholder for map */}
                 <div className="h-full flex items-center justify-center text-gray-500">
                   <MapPin className="h-8 w-8 mr-2" />
-                  <span>Map of Pineville</span>
+                  <span>Map of Lebane</span>
                 </div>
               </div>
             </div>
@@ -93,7 +93,7 @@ const Index = () => {
           <div className="flex flex-col md:flex-row justify-between items-center">
             <div className="flex items-center mb-4 md:mb-0">
               <Home className="h-6 w-6 mr-2" />
-              <span className="text-lg font-semibold">Pineville</span>
+              <span className="text-lg font-semibold">Lebane</span>
             </div>
             <nav className="mb-4 md:mb-0">
               <ul className="flex space-x-4">
@@ -110,7 +110,7 @@ const Index = () => {
             </div>
           </div>
           <div className="mt-8 text-center text-sm text-gray-400">
-            © 2023 Pineville. All rights reserved.
+            © 2023 Lebane. All rights reserved.
           </div>
         </div>
       </footer>
@@ -130,7 +130,7 @@ const events = [
     description: "Fresh local produce, artisanal goods, and community fun."
   },
   {
-    title: "Pineville Marathon",
+    title: "Lebane Marathon",
     date: "September 3, 2023",
     description: "Join us for our scenic run through town and surrounding nature trails."
   }
