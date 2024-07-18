@@ -9,7 +9,7 @@ const Index = () => {
     <div className="flex flex-col min-h-screen">
       {/* Hero Section */}
       <section id="home" className="relative bg-gray-900 text-white py-20">
-        <img src="/lebane-hero.jpg" alt="Lebane Town Square" className="absolute inset-0 w-full h-full object-cover opacity-70" />
+        <img src="/new-lebane-hero.jpg" alt="Lebane Town Square" className="absolute inset-0 w-full h-full object-cover opacity-70" />
         <div className="container mx-auto px-4 relative z-10">
           <div className="max-w-3xl mx-auto text-center">
             <h1 className="text-4xl font-bold mb-4">Welcome to Lebane</h1>
